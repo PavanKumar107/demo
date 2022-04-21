@@ -1,22 +1,19 @@
 package com.bl.petmanagmentsoftware;
 
 public class Dog extends Animal implements Swimmable {
-	
-	public Dog(String id) {
-		this.id = id;
-		name = "dog";
-		colour = Colour.BLACK_WHITE;
-	}
-	
-	@Override
-	public void eats() {
-		System.out.println("Dog eats flesh");
-	}
+	 public Dog(String id){
+         this.id = id;
+         name = "Dog";
+         colour =  Colour.BLACK;
+     }
 
-	@Override
-	public void swim() {
-		System.out.println("Dog can Swim");
-		// TODO Auto-generated method stub
-		
-	}
-}
+     @Override
+     public void eat(){
+         System.out.println("Dog eats flash");
+     }
+
+     @Override
+     public void swim() {
+         System.out.println("Dog can swim");
+     }
+ }
